@@ -4,8 +4,206 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>admin dashboard</h1>
+  <!--Navigation element-->
+  <nav>
+    <h1><span class="dash-icon material-symbols-outlined">dashboard</span>Dashboard</h1>
+    <ul>
+      <li><button><span class="material-symbols-outlined">home</span>&nbsp;Home</button></li>
+      <li><button><span class="material-symbols-outlined">account_box</span>&nbsp;Profile</button></li>
+      <li><button><span class="material-symbols-outlined">3p</span>&nbsp;Messages</button></li>
+      <li><button><span class="material-symbols-outlined">history</span>&nbsp;History</button></li>
+      <li><button><span class="material-symbols-outlined">checklist_rtl</span>&nbsp;Tasks</button></li>
+      <li><button><span class="material-symbols-outlined">diversity_3</span>&nbsp;Communities</button></li>
+    </ul>
+    <br>
+    <ul>
+      <li><button><span class="material-symbols-outlined">settings</span>&nbsp;Settings</button></li>
+      <li><button><span class="material-symbols-outlined">contact_support</span>&nbsp;Support</button></li>
+      <li><button><span class="material-symbols-outlined">privacy_tip</span>&nbsp;Privacy</button></li>
+    </ul></button>
+  </nav>
+
+  <!--Header element-->
+  <header>
+    <form action="get">
+      <div class="search-bar">
+        <span class="search-icon material-symbols-outlined">search</span>
+        <input type="search" class="search-input">
+      </div>
+    </form>
+    <div class="notifications">
+      <span class="material-symbols-outlined">notifications_active</span>
+      <img src="https://i.pravatar.cc/150?img=6" alt="face">
+      <h2>Morgan Oakley</h2>
+    </div>
+    <div class="hello-there">
+      <img src="https://i.pravatar.cc/150?img=6" alt="face">
+      <div class="hello-there-text">
+        <h5>Hi there,</h5>
+        <h2>Morgan Oakley</h2>
+      </div>
+    </div>
+    <div class="new-upload-share">
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
+    </div>
+  </header>
+
+  <!--Main Grid-->
+  <section>
+    <!--Projects-->
+    <div class="projects">
+      <h3>Your Projects</h3>
+      <div class="card">
+        <h5>Super Cool Project</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Less Cool Project</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Impossibly Cool Project</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Impossible App</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Easy Peasy App</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Ad Blocker</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Add Blocker</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Minus Blocker</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h5>Money Maker</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        <div class="card-icons">
+          <span class="material-symbols-outlined">bookmark_star</span>
+          <span class="material-symbols-outlined">preview</span>
+          <span class="material-symbols-outlined">call_split</span>
+        </div>
+      </div>
+    </div>
+    
+    <!--Announcements-->
+    <div class="announcements">
+      <h3>Announcements</h3>
+      <div class="announcement-cards">
+        <div class="card-1">
+          <h5>Site Maintenance</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        </div>
+        <div class="card-1">
+          <h5>Community Share Day</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        </div>
+        <div class="card-1">
+          <h5>Updated Privacy Policy</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet eros mauris. Curabitur scelerisque dolor purus, at tempor sapien fermentum at. Maecenas tellus elit, vestibulum sit amet enim vitae, molestie varius lacus. Pellentesque odio ligula, facilisis at scelerisque at, tristique eget risus. Ut pretium, diam in cursus scelerisque, tellus massa lobortis dui, id venenatis lacus elit in ligula. Nam quis sodales risus, ac blandit mi. Pellentesque hendrerit sapien quam, id laoreet lorem rutrum vitae. Fusce elit sapien, condimentum in sollicitudin et, tincidunt et tellus.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Trending-->
+    <div class="trending">
+      <h3>Trending</h3>
+      <div class="trending-cards">
+        <div class="trenders">
+          <img src="https://i.pravatar.cc/150?img=17" alt="old man">
+          <div class="trenders-text">
+            <p>@tegan</p>
+            <small>World Peace Builder</small>
+          </div>
+        </div>
+        <div class="trenders">
+          <img src="https://i.pravatar.cc/150?img=18" alt="old man">
+          <div class="trenders-text">
+            <p>@morgan</p>
+            <small>World Domination App</small>
+          </div>
+        </div>
+        <div class="trenders">
+          <img src="https://i.pravatar.cc/150?img=19" alt="old man">
+          <div class="trenders-text">
+            <p>@stuff</p>
+            <small>Life Changing app</small>
+          </div>
+        </div>
+        <div class="trenders">
+          <img src="https://i.pravatar.cc/150?img=11" alt="old man">
+          <div class="trenders-text">
+            <p>@alexis</p>
+            <small>Red Light Runner</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
